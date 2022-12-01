@@ -134,6 +134,15 @@ text-align: justify;
      
 }
 
+/* autour de la photo Sainte Vierge */ 
+.PhotoSainteVierge {
+    width:90%;
+    border-radius:50%; 
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid rgba(33,33,33 ,1);
+     
+}
 /* rond autour du logo */ 
 .rondLogo {
     width:200px;
