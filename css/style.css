@@ -1,0 +1,286 @@
+/* Définition des polices personnalisées */
+
+
+@font-face {
+    font-family: 'raleway';
+    src: url('fonts/raleway-semibold-webfont.eot');
+    src: url('fonts/raleway-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/raleway-semibold-webfont.woff2') format('woff2'),
+         url('fonts/raleway-semibold-webfont.woff') format('woff'),
+         url('raleway-semibold-webfont.ttf') format('truetype'),
+         url('fonts/raleway-semibold-webfont.svg#ralewaysemibold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+     font-family: 'quantum';
+     src: url('fonts/quantum-webfont.eot');
+     src: url('fonts/quantum-webfont.eot?#iefix') format('embedded-opentype'),
+          url('fonts/quantum-webfont.woff2') format('woff2'),
+          url('fonts/quantum-webfont.woff') format('woff'),
+          url('fonts/quantum-webfont.svg#quantumregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    
+       
+
+}
+
+.link { color: #212121; } /* CSS link color (sombre) */
+.link:hover { color: #FAFAFA; } /* CSS link hover (white) */
+
+
+/* Eléments principaux de la page */
+
+body
+{
+font-family: raleway, Arial, sans-serif;
+color: #181818;
+}
+
+ul
+{
+ list-style-type: none;
+ font-size:1.3em;
+ padding: 5px;
+
+}
+li
+{
+text-align: left;
+margin:20px;
+
+}
+.competance
+{
+    font-size:1em;
+    padding : 0;
+    margin : 0;   
+}
+
+
+
+h1{
+    color:rgba(255,111,0 ,1);
+}
+h2{
+    font-family: quantum, arial, sans-serif;
+}
+h3{
+    text-align: center;
+}
+/*bande a gauche */
+#liseret
+{
+    background-color: rgba(255,111,0 ,1);
+    padding: 0px;
+    text-align: center;
+    
+
+}
+
+
+
+.loisir
+{
+margin-top: 200px;
+width: 100%;
+background-color: rgba(33,33,33 ,1);
+color: rgba(255,111,0 ,1);
+}
+
+.iconeloisir
+{
+
+margin-top: 20px;
+margin-bottom: 20px;
+
+
+}
+.rondicone
+{
+
+    border-radius:50%; 
+    margin: 10px;
+    border: 2px solid rgba(255,255,255 ,1);
+    padding: 15px;
+    
+   
+}
+
+.contact
+{
+
+background-color: rgba(33,33,33 ,1);
+color: rgba(255,111,0 ,1);   
+}
+
+.apropos
+{
+margin: 50px;
+margin-top: 60px;
+text-align: justify;    
+
+}
+.couleurtexte
+{
+    color: rgb(0, 0, 0);
+}
+/* rond autour de la photo */ 
+.rondavatar {
+    width:200px;
+    border-radius:50%; 
+    margin: 60px;
+    border: 2px solid rgba(33,33,33 ,1);
+     
+}
+
+/* rond autour du logo */ 
+.rondLogo {
+    width:200px;
+    border-radius:60%; 
+    margin: 60px;
+    border: 2px solid rgba(33,33,33 ,1);
+     
+}
+.fab
+    {
+        color: white;
+        font-size:2em;
+     
+        
+    }
+.fas
+    {
+        color: white;
+        font-size:2em;
+        
+    }   
+
+.fa-graduation-cap
+    {
+        color: rgba(255,111,0 ,1);
+        font-size:1.5em;    
+    }
+.fa-briefcase
+{
+    color: rgba(255,111,0 ,1);
+    font-size:1.8em;    
+}
+.fa-pen-fancy
+{
+    color: rgba(255,111,0 ,1);
+    font-size:1.8em;    
+}    
+.iconeadroite
+    {
+        float:left;
+        margin-right:50px;
+        font-size: 2em;
+        margin-bottom: 0px;
+
+    } 
+.traie
+{
+ border-bottom : 2px solid rgba(255,111,0 ,1);
+ margin: 20px;   
+}
+
+
+@media screen and (max-width: 767px){
+    h1{
+        font-size: 1.8rem;
+      }
+    h2{
+      font-size: 1.4rem;
+        }
+    h3{
+        font-size: 1.3rem;
+        }
+
+    /* rond autour de la photo */ 
+.rondavatar {
+    width:150px;
+    border-radius:60%; 
+    margin: 30px;
+    border: 2px solid rgba(33,33,33 ,1);
+}
+
+.fab
+    {
+        color: white;
+        font-size:1.4rem;
+        
+    }
+.fas
+    {
+        color: white;
+        font-size:1.4rem;
+        
+    }   
+
+.fa-graduation-cap
+    {
+        color: rgba(255,111,0 ,1);
+        font-size:2rem;    
+    }
+.fa-briefcase
+{
+    color: rgba(255,111,0 ,1);
+    font-size:2rem;    
+}
+.fa-pen-fancy
+{
+    color: rgba(255,111,0 ,1);
+    font-size:2rem;    
+}    
+.iconeadroite
+    {
+        float:left;
+        margin-right:50px;
+        font-size: 2rem;
+        margin-bottom: 0px;
+
+    } 
+.loisir
+    {
+    margin-top: 100px;
+    }
+.iconeloisir
+    {
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+ul
+    {
+     list-style-type: none;
+     font-size:1.3em;
+    
+    }
+li
+    {
+    text-align:left;
+    margin:10px;   
+    } 
+}
+.traie
+{
+ border-bottom : 2px solid rgba(255,111,0 ,1);
+ margin: 10px;   
+}
+.apropos
+{
+margin: 25px;
+margin-top: 30px;
+text-align: justify;    
+
+}
+@media screen and (max-width: 1024px)
+   { /* rond autour de la photo */ 
+.rondavatar {
+    width:150px;
+    border-radius:60%; 
+    margin: 15px;
+    border: 2px solid rgba(33,33,33 ,1);
+}
+}
