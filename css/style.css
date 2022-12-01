@@ -137,7 +137,7 @@ text-align: justify;
 /* autour de la photo Sainte Vierge */ 
 .PhotoSainteVierge {
     width:90%;
-    border-radius:50%; 
+    border-radius:0rem 1rem 1rem 1rem; 
     margin: 10px;
     padding: 10px;
     border: 3px solid rgba(33,33,33 ,1);
